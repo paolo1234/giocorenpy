@@ -41,6 +41,16 @@ label start:
     m "Tranquillaaaa ci penso io ad aggiustare di nuovo tutto eheh"
     m "Faccio un salto in cantina a prendere gli attrezzi e vediamo di aprire questo rottame"
     f "Ehii non è un rottame!"
-    m
-
+    m "Beh considerando che l’hai dal 2015, direi che sarebbe il momento di cambiare..."
+    f "Basta fare commenti sulla mia console! su scendi a prendere gli attrezzi."
+    "*In cantina..*"
+    m "Uhm vediamo un po'.. dove saranno?"
+    m "AH eccoli!"
+    "*Qualcosa si sposta nell'ombra*"
+    m "EHHH "
     return
+
+# label scegliNome:
+#     python:
+#         name = name.input("Come ti chiami?", 20)
+#         name = name.split()
