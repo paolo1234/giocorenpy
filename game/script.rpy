@@ -7,7 +7,6 @@ image fem = im.Scale("fem.png", 392, 901)
 image mas = im.Scale("mas.png", 400, 901)
 
 
-
 # Il gioco comincia qui. 
 
 label start:
