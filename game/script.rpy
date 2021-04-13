@@ -11,7 +11,7 @@ image bg stanza = "bg stanza.png"
 
 label start:
 
-    scene bg room
+    scene bg stanza with fade
 
     show fem at center with fade
 
