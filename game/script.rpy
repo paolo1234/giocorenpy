@@ -15,7 +15,7 @@ label start:
 
     show fem at center
     show mas:
-        xalign 0.8
+        xalign 0.9
         yalign 1.0
     with fade
 
