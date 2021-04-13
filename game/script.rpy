@@ -24,7 +24,7 @@ label start:
 
     f "Ugh.. Non capisco cosa non vada con la mia console"
     m "Ma che noiosa che seii! Ma staccati ogni tanto da questi computer e vieni fuori a giocare"
-
+    
 
     return
 
