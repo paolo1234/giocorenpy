@@ -4,7 +4,8 @@
 
 define e = Character("Eileen", color="#f44")
 
-image fem = im.Scale("fem.png", 320, 680)
+image fem = im.Scale("fem.png", 420, 680)
+image mas = im.Scale ("mas.png", 400, 700)
 # Il gioco comincia qui.
 
 label start:
@@ -20,7 +21,8 @@ label start:
     # Al momento mostra una sagoma generica, ma puoi aggiungere un file
     # (chiamato "eileen_happy.png") alla directory 'images' per cambiarla.
 
-    show fem at truecenter
+    show fem at center
+    show mas at right
 
     # Questo mostra linee di dialogo.
 
