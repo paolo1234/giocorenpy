@@ -6,7 +6,7 @@ define e = Character("Eileen", color="#f44")
 
 image fem = im.Scale("fem.png", 420, 680)
 image mas = im.Scale ("mas.png", 400, 700)
-# Il gioco comincia qui.
+# Il gioco comincia qui. 
 
 label start:
 
