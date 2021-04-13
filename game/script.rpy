@@ -24,7 +24,7 @@ label start:
 
     # Questo mostra linee di dialogo.
 
-    "Funziona davvero!"
+    "Ciao raga"
 
     e "Hai creato un nuovo gioco Ren'py."
 
