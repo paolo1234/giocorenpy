@@ -3,8 +3,8 @@
 define e = Character("Eileen", color="#f44")
 
 image fem = im.Scale("fem.png", 392, 901)
-# image fem = "fem.png"
-image mas = im.Scale("masfr.png", 400, 901)
+image mas = "masfr.png"
+# image mas = im.Scale("masfr.png", 400, 833)
 
 
 # Il gioco comincia qui. 
