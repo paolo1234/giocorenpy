@@ -5,8 +5,9 @@ define c = Character("Console")
 
 image fem = im.Scale("fem.png", 392, 901)
 image mas = "masfr.png"
-image bg stanza = "bg stanza.jpg"
-image bg nero = "bg nero.jpg"
+image bg stanza = im.Scale("bg stanza.jpg",1920,1080)
+image bg nero = im.Scale("bg nero.jpg",1920,1080)
+image bg cantina = im.Scale("bg cantina",1920,1080)
 
 # image mas = im.Scale("masfr.png", 400, 833)
 # Il gioco comincia qui. 
@@ -23,12 +24,12 @@ label start:
     with fade
 
     show fem at center 
-    with fade
+    
 
     show mas:
         xalign 0.9
         yalign 1.0
-    with fade
+    
     
     f "Ugh.. Non capisco cosa non vada con la mia console"
     m "Ma che noiosa che seii! Ma staccati ogni tanto da questi computer e vieni fuori a giocare"
@@ -36,9 +37,11 @@ label start:
     m "Come faccio ad aiutarti se non fai altro che lamentarti?!!"
     f "Shh, su dai aiutami con questo cavo che non riesco ad accendere la console..."
     m "Uff ok arrivo..."
-    m "Si è acceso??"
+    pause 1.5
+    m "Si è accesa??"
     f "No... ma che problema avrà mai?..."
     m "Ho trovato! Aspetta che provo a cambiare presa.."
+    pause 1.0
     f "AH!! Guarda si è accesaaaa"
     m "Eheh ecco mancava il mio tocco magico"
     f "Bene! Come premio hai ricevuto una partita flash contro di me eheheh"
@@ -47,12 +50,16 @@ label start:
     m "Voglio quello lì a destra"
     c "*si spegne*"
     f "Ugh figuriamoci, mi sembrava strano fosse così facile..."
-    m "Tranquillaaaa ci penso io ad aggiustare di nuovo tutto eheh"
+    m "Tranquillaaaa ci penso io ad aggiustare di nuovo tutto "
     m "Faccio un salto in cantina a prendere gli attrezzi e vediamo di aprire questo rottame"
     f "Ehii non è un rottame!"
-    m "Beh considerando che l’hai dal 2015, direi che sarebbe il momento di cambiare..."
+    m "Beh considerando che l’hai dal 2015, direi che sarebbe il momento di cambiarla..."
     f "Basta fare commenti sulla mia console! su scendi a prendere gli attrezzi."
+    pause 1.0
     "*In cantina..*"
+    scene bg cantina
+    with fade
+     pause 1.0
     m "Uhm vediamo un po'.. dove saranno?"
     m "AH eccoli!"
     "*FIUU*"
