@@ -20,7 +20,7 @@ label start:
     # Al momento mostra una sagoma generica, ma puoi aggiungere un file
     # (chiamato "eileen_happy.png") alla directory 'images' per cambiarla.
 
-    show fem at true center
+    show fem at truecenter
 
     # Questo mostra linee di dialogo.
 
