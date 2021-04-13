@@ -5,25 +5,31 @@ define c = Character("Console")
 
 image fem = im.Scale("fem.png", 392, 901)
 image mas = "masfr.png"
-image bg stanza = "bg stanza.png"
+image bg stanza = "bg stanza.jpg"
+image bg nero = "bg nero.jpg"
+
 # image mas = im.Scale("masfr.png", 400, 833)
 # Il gioco comincia qui. 
 
 label start:
 
-    scene bg stanza with fade
+    scene bg nero 
+    with fade
 
-    show fem at center with fade
+    # Questo mostra linee di dialogo.
+    "\"Citta' brutta e' sperduta, 204X..\""
+
+    scene bg stanza 
+    with fade
+
+    show fem at center 
+    with fade
 
     show mas:
         xalign 0.9
         yalign 1.0
-        with fade
+    with fade
     
-
-    # Questo mostra linee di dialogo.
-    "\"Citta' brutta e' sperduta, 204X..\""
-    "..."
     f "Ugh.. Non capisco cosa non vada con la mia console"
     m "Ma che noiosa che seii! Ma staccati ogni tanto da questi computer e vieni fuori a giocare"
     f "Se non vuoi aiutarmi stai zitto almeno."
@@ -51,7 +57,7 @@ label start:
     m "AH eccoli!"
     "*FIUU*"
     m "EHHH cos'è stato??"
-    m:"...."
+    m "...."
     m "Ah, è solo caduto uno scatolo...fiù"
     m "Signorina, ha per caso bisogno di un tuttofare?"
     f "Non fare l'idiota e sbrigati su!"
@@ -67,24 +73,24 @@ label start:
     m "quale dovrei mettere prima…"
 
     menu:
-    "rosso":
-        m "proviamo il rosso…"
-        "(zzt... scossa)"
-        m "AAAHG"
-        f "tutto bene??"
-        m "ho preso la scossa accidenti"
-        f "ottimo..."
-    "verde":
-        jump badEnd
-    "blu":
-        m "beh penso che sia veramente arrivato il momento di buttare via questo affare"
-        f "uff...vado a metterla nel casonetto"
+        "rosso":
+            m "proviamo il rosso…"
+            "(zzt... scossa)"
+            m "AAAHG"
+            f "tutto bene??"
+            m "ho preso la scossa accidenti"
+            f "ottimo..."
+        "verde":
+            jump badEnd
+        "blu":
+            m "beh penso che sia veramente arrivato il momento di buttare via questo affare"
+            f "uff...vado a metterla nel casonetto"
 
-        f "ugh è difficile aprire la porta con questo coso in mano"
-        f "uh? cosa è questo pacco?"
-        f "che strano non ho ordinato niente di recente…"
-        m "apriamolo!"
-        f "mh si, io vado a buttare questo vecchia cara console, tu comincia a portarlo dentro."
+            f "ugh è difficile aprire la porta con questo coso in mano"
+            f "uh? cosa è questo pacco?"
+            f "che strano non ho ordinato niente di recente…"
+            m "apriamolo!"
+            f "mh si, io vado a buttare questo vecchia cara console, tu comincia a portarlo dentro."
 
 
 
