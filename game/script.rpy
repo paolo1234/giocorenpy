@@ -5,7 +5,7 @@ define c = Character("Console", color="#FFFFFF")
 
 #Fem
 image fem = im.Scale("fem.png", 392, 901)
-
+image fem infastidita = "fem infastidita.png"
 #Mas
 image mas = "masfr.png"
 image mas spaventato = "mas spaventato.png"
