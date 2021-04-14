@@ -3,9 +3,17 @@ define f = Character("Ragazza", color="#f44000")
 define m = Character("Ragazzo", color="#1363CC")
 define c = Character("Console", color="#FFFFFF")
 
+#Fem
 image fem = im.Scale("fem.png", 392, 901)
+
+#Mas
 image mas = "masfr.png"
 image mas spaventato = "mas spaventato.png"
+image mas sorridente = "mas sorridente.png"
+image mas seccato = "mas seccato.png"
+image mas confuso = "mas confuso.png"
+
+#Bg
 image bg stanza = im.Scale("bg stanza.jpg",1920,1080)
 image bg nero = im.Scale("bg nero.jpg",1920,1080)
 image bg cantina = im.Scale("bg cantina.jpg",1920,1080)
@@ -68,6 +76,7 @@ label start:
     "*FIUU*"
     hide mas
     show mas spaventato
+
     m "EHHH cos'è stato??"
     m "...."
     m "Ah, è solo caduto uno scatolo..."
