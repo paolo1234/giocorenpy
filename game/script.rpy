@@ -83,21 +83,25 @@ label start:
     pause 1.0
     scene bg stanza
     with fade
-    show mas:
+    show mas sorridente:
         xalign 0.9
         yalign 1.0
     show fem at center 
     m "Signorina, ha per caso bisogno di un tuttofare?"
+    hide fem
+    show fem infastidita
     f "Non fare l'idiota e sbrigati su!"
     m "Subito." 
     m "Prima di tutto apriamola."
     pause 1.0
+    hide mas sorridente
+    show mas confuso
     m "Ma...ci sono dei fili staccati."
     m "E qua è tutto ammaccato."
     m "Ma cosa hai combinato a questa console??"
     f "Cosa?? io non l’ho mai toccata...non ho idea di come si sia ridotta così."
     m "Strano…"
-    m "Non fa niente , mettiamoci all’opera."
+    m "Non fa niente, mettiamoci all’opera."
     m "Prima di tutto ci sono vari fili staccati…ma una sola entrata."
     m "Quale dovrei collegare prima??"
 
