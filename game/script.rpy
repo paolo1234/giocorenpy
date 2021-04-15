@@ -122,13 +122,12 @@ label start:
         "Blu":
             m "Oh, ecco fatto!!"
             m "Prova ad accenderla."
-            
             pause 1.0
             f "Wow"
             m "Il signor tuttofare colpisce ancora eheh funziona!"
             "(zzzppp…)"
             pause 0.5
-            f"Si il signor tuttofare ha proprio colpito…"
+            f"Sì il signor tuttofare ha proprio colpito…"
             m"Oh cavolo."
 
     m "Beh penso che sia veramente arrivato il momento di buttare via questo affare."
